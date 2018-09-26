@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_residential_complex;
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_districts;

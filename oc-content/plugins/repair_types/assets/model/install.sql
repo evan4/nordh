@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS /*TABLE_PREFIX*/t_repair_types (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`title` VARCHAR(255) NOT NULL,
+	`description` TEXT NOT NULL,
+	`description_list` TEXT NOT NULL,
+	`orderliness` TINYINT(2) UNSIGNED NULL,
+	PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

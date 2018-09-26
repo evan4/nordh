@@ -1,0 +1,11 @@
+.select-box-trigger {
+    display: none;
+}
+.tiny{
+    width:4%;
+    text-align:center;
+    cursor: pointer;
+}
+.btn{
+    background-image: none;
+}

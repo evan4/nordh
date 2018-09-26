@@ -1,0 +1,38 @@
+# MAC
+.DS_Store
+
+# Git
+*.diff
+*.patch
+
+# Sublime 2
+sftp-config*
+
+# Config Osclass
+config.php
+_config.php
+oc-includes/osclass/t/config.php
+.maintenance
+
+error.log
+
+# oc-content
+oc-content/debug*.log
+oc-content/queries.log
+oc-content/explain_queries.log
+oc-content/uploads/*
+
+
+# Intellij IDEA
+.idea/*
+*.iml
+
+# Others
+.htaccess
+dist
+nbproject/
+
+# npm
+node_modules
+oc-content/themes/realestate/css/maps/
+

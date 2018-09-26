@@ -1,0 +1,51 @@
+.slick-repair {
+    box-shadow: 0 15px 15px rgba(238, 206, 218, 0.5);
+    margin-bottom: 15px;
+}
+
+.slick-repair__arrows {
+    margin-top: 40px;
+}
+
+.slick-repair .item {
+    position: relative;
+    padding: 10px 1% 0 10px;
+    background: #f7dae5;
+    border: 1px solid #dcc3cd;
+}
+
+.slick-repair__caption {
+    font-weight: bold;
+}
+
+.slick-repair__text {
+    font-size: 15px;
+    line-height: 1.5;
+}
+.fotorama__nav {
+    text-align: left !important;
+}
+@media (min-width: 320px) {
+    .slick-repair__caption{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .fotorama {
+        float: left;
+        width: 50%;
+    }
+
+    .slick-repair__data {
+        float: right;
+        width: 45%;
+    }
+    .slick-repair__caption{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
